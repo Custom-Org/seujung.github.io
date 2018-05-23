@@ -1,11 +1,10 @@
-title: kakao 기술 블로그
-email: opensource@kakaocorp.com
+title: seujung tech bloh
+email: digit82@gmail.com
 description: |
-  Connect Everything 새로운 연결, 새로운 세상.
-  연결의 혁신으로 세상은 더욱 가깝고 새로워진다고 카카오는 믿습니다.
+  Machine learnning, Deep learning over ..
 baseurl: ''
-url: 'http://tech.kakao.com'
-timezone: Asia/Seoul 
+url: 'https://seujung.github.io'
+timezone: Asia/Seoul
 
 repository: kakao/kakao.github.io
 
@@ -50,7 +49,7 @@ exclude: [README.md, Gemfile, Gemfile.lock]
 keep_files: [assets, files]
 github: [metadata]
 # iolo's custom
-author: opensource@kakaocorp.com
+author: digit82@gmail.com
 image: '/assets/images/default_blog_cover.jpg'
 asset_url: /assets
 #asset_url: //meta-kage.kakaocdn.net/dn/osa/blog/assets
@@ -61,8 +60,6 @@ facebook:
   app_id: '1204347326263800'
   username: nkakao
 twitter:
-  username: kakaodev
-google_plus:
-  username: kakaodev
+  username: digit82
 github_url:
-  username: kakao
+  username: seujung
