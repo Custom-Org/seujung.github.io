@@ -1,5 +1,5 @@
 ---
-name: albert.kim
-title: 김진덕
+name: seujung
+title: 정승환
 image: /files/authors/albert.kim.jpg
 ---
