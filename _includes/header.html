@@ -14,9 +14,9 @@
     <ul class="search__results" id="results-container"></ul>
 
     <ul id="menu" class="nav">
-        <li class="{% if page.url != '/opensource/' and page.url != '/openapi/' and page.url != '/events/' %} active {% endif %}"><a href="{{ base_path }}/">blog</a></li>
-        <li class="{% if page.url == '/opensource/' %} active {% endif %}"><a href="{{ base_path }}/repo/">Repo</a></li>
-        <li class="{% if page.url == '/openapi/' %} active {% endif %}"><a href="{{ base_path }}/aboutme/">About me</a></li>
+        <li class="{% if page.url != '/repo/' and page.url != '/aboutme/' %} active {% endif %}"><a href="{{ base_path }}/">blog</a></li>
+        <li class="{% if page.url == '/repo/' %} active {% endif %}"><a href="{{ base_path }}/repo/">Repo</a></li>
+        <li class="{% if page.url == '/aboutme/' %} active {% endif %}"><a href="{{ base_path }}/aboutme/">About me</a></li>
 
     </ul>
 </div>
