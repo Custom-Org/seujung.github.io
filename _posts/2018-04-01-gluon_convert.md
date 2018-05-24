@@ -4,7 +4,7 @@ title:  "pytorch - gluon 함수 Mapping"
 author: seujung
 date:   2018-04-01 10:41:00
 tags:	[mxnet,gluon]
-image: /files/covers/kage-idc.jpg
+image: /files/covers/dices.jpg
 ---
 
 ## 목적
