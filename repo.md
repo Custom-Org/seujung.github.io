@@ -19,11 +19,11 @@ Style Transfer
 
 QA
 --
-> [Relational Network (using Gluon)](https://github.com/ski-net/dl_study_with_gluon_2nd/tree/master/relational_network)
+- [Relational Network (using Gluon)](https://github.com/ski-net/dl_study_with_gluon_2nd/tree/master/relational_network)
 
 ---
 
 WAV
 --
-> [WaveNet (using Gluon)](https://github.com/ski-net/dl_study_with_gluon_2nd/tree/master/Wavenet)
+- [WaveNet (using Gluon)](https://github.com/ski-net/dl_study_with_gluon_2nd/tree/master/Wavenet)
 
