@@ -8,9 +8,7 @@ tags: [repo]
 GAN
 ---
 
-> BEGAN (using Gluon)
-> https://github.com/seujung/paper_study/tree/master/BEGAN
-
+> [BEGAN (using Gluon)](https://github.com/seujung/paper_study/tree/master/BEGAN)
 
 ---
 
