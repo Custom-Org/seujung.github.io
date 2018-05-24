@@ -15,6 +15,8 @@ image: /files/covers/kage-idc.jpg
 
 ## 함수 mapping 표 (update 진행 중)
 ---
+
+
 |  <center>Pytorch</center> |  <center>Gluon</center> |
 |:--------|:--------:|
 |torch.unsqueeze(data,1)| data.expand_dims(1)|
