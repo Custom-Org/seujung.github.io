@@ -4,7 +4,7 @@ title:  "gradient를 활용한 DNN 해석 방안"
 author: seujung
 date:   2017-12-19 08:43:59
 categories: deep_learning
-tags:	[deep_pearning, itpr_model]
+tags:	[deep_learning, itpr_model]
 image: /files/covers/kage-idc.jpg
 ---
 
@@ -64,7 +64,7 @@ image: /files/covers/kage-idc.jpg
 
 - 여기서 의미있는 점은 input data의 경우에는 다양한 형태를 가지고 있으나 gradient 산출 결과는 이를 반영한 일종의 표준 형태라는 점임
 
-![input_str_img](/files/images/171219_itpr_model/input_str.png)
+![input_str_img](/files/171219_itpr_model/input_str.png)
 
 ### Approach 2
 - Test 수행 process
