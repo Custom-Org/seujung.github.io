@@ -1,4 +1,4 @@
 ---
-name: deep learning
+name: deep-learning
 title: 'Deep Learning'
 ---
