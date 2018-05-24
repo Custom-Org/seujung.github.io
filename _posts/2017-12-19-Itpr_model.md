@@ -4,7 +4,7 @@ title:  "gradient를 활용한 DNN 해석 방안"
 author: seujung
 date:   2017-12-19 08:43:59
 categories: deep_learning
-tags:	[deep_learning, itpr_model]
+tags:	[devops,deep_learning,itpr_model]
 image: /files/covers/kage-idc.jpg
 ---
 
