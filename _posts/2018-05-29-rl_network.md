@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Relational Network Review"
+title:  "[Papar] Relational Network Review"
 author: seujung
-date:   2018-05-19 10:11:31
+date:   2018-05-29 10:11:31
 tags:	[deep-learning,paper]
 image: /files/covers/deeplearning-cover.jpg
 ---
