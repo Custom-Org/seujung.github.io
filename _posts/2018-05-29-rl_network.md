@@ -5,6 +5,7 @@ author: seujung
 date:   2018-05-29 10:11:31
 tags:	[deep-learning,paper_review]
 image: /files/covers/deeplearning-cover.jpg
+use_math: true
 ---
 
 ## 논문 개요
