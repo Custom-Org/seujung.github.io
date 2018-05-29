@@ -11,10 +11,10 @@ image: /files/covers/deeplearning-cover.jpg
 ---
  Visual QA 문제에서 관계형 추론(relational reasoning)이란 방법을 제시하여서 높은 성능을 보인 Deep Mind 논문에 대해서 설명하고자 합니다. 상당히 간단한 구조의 알고리즘을 통해 기존 방법과 확연한 차이를 보인 점이 가장 큰 장점입니다. 또한 해당 논문에서 제시한 방법은 QA 문제를 넘어서 다양한 Domain에서도 활용할 수 있다는 점이 또 하나의 큰 장점 입니다.
 
-[Paper link](https://arxiv.org/pdf/1706.01427.pdf)
+<https://arxiv.org/pdf/1706.01427.pdf>
 
 ## 문제 사항 설명
-해당 논문에서 주요 다룬 데이터는 [CLEVR](https://cs.stanford.edu/people/jcjohns/clevr/) data set을 사용 하였습니다. 해당 데이터의 주요 구조는 다음과 같습니다.
+해당 논문에서 주요 다룬 데이터는 [CLEVR] (https://cs.stanford.edu/people/jcjohns/clevr/) data set을 사용 하였습니다. 해당 데이터의 주요 구조는 다음과 같습니다.
 
 ![fig1](/files/180529_rl_model/fig1.png)
 
