@@ -12,7 +12,7 @@ permalink: /:year/:month/:day/:title/
 
 excerpt_separator: <!--more-->
 
-markdown: maruku
+markdown: kramdown
 
 krandown:
   input: GFM
