@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "meta learning - few shot learning"
+title:  "meta learning - Few Shot Learning"
 author: seujung
-date:   2018-06-22 10:12:32
+date:   2018-06-29 14:12:32
 tags:	[deep-learning,meta-learnng]
 image: /files/covers/meta-cover.jpg
 ---
@@ -27,28 +27,28 @@ Few-Shot Learning이란 해당 용어가 말하는 대로 아주 적은 데이�
 
 
 ##### Few_Shot Data 생성 Process
-[Step1] 가장 처음에는 Train/Test/(Valid) Set으로 데이터를 분할합니다. 이 방법은 기존에 알고리즘 학습을 위한 방법과 동일한 방법 입니다.
+**[Step1]**가장 처음에는 Train/Test/(Valid) Set으로 데이터를 분할합니다. 이 방법은 기존에 알고리즘 학습을 위한 방법과 동일한 방법 입니다.
 
-![fig1](/files/180622_meta_learning/fig1.png)
+![전체적인 데이터 구조](/files/180622_meta_learning/fig1.png)
 
-[Step2] 그 다음에는 각각 Dataset에서 N개의 Class에 대해 Sampling 작업을 수행 합니다.
-![fig2](/files/180622_meta_learning/fig2.png)
+**[Step2]** 그 다음에는 각각 Dataset에서 N개의 Class에 대해 Sampling 작업을 수행 합니다.
+![Train Data 구조 1](/files/180622_meta_learning/fig2.png)
 
-[Step3] Sampling한 Label을 기준으로 하여 K개씩 데이터를 생성합니다. 이 때 2가지 Data Set(support/query)을 생성합니다. 이 때 support/query set은 서로 겹치지 않도록 합니다. 해당 데이터를 기준으로 support Set으로 모델을 학습을 먼저 수행하고, 모뎔에 대한 평가는 query로 판단합니다.
-![fig3](/files/180622_meta_learning/fig3.png)
+**[Step3]** Sampling한 Label을 기준으로 하여 K개씩 데이터를 생성합니다. 이 때 2가지 Data Set(support/query)을 생성합니다. 이 때 support/query set은 서로 겹치지 않도록 합니다. 해당 데이터를 기준으로 support Set으로 모델을 학습을 먼저 수행하고, 모뎔에 대한 평가는 query로 판단합니다.
+![Train Data 구조 2](/files/180622_meta_learning/fig3.png)
 
-[주의사항]
+**[주의사항]**
 - Few-Shot Learning 에서 기존 데이터 생성과의 가장 큰 차이점은 Sampling 수행 시 label의 index가 계속 바뀐다는 점입니다. 기존 모델 학습의 경우 CIFAR-10의 경우를 예로 든다고 하면  airplane = 0 ,...,truck = 9 로 label에 대한 index를 부여한다고 하면 이 label은 동일한 상태로 유지됩니다. 하지만 Few-Shot Learning의 경우에는 sampling 에 따라 airplane의 label이 0이 될 수도 있고 2가 될 수도 있습니다. 이 점이 기존 classification가 가장 차별된 점입니다. 하지만 sampling 돤 데이터 에서 support Set 과 query는 동일한 label을 유지합니다. 이래야만 모델이 어떤 데이터가 어떤 label을 의미하는지를 알고 예측할 수 있기 때문입니다.
 
 
-
 지금까지 이야기한 내용을 한 장으로 압축한 그림의 형태가 다음과 같은 형태 입니다.
-![fig5](/files/180622_meta_learning/fig5.png)
+![Data Structure](/files/180622_meta_learning/fig5.png)
+
 
 
 
 
 #### Reference
-- https://www.slideshare.net/JisungDavidKim/oneshot-learning
+- [https://www.slideshare.net/JisungDavidKim/oneshot-learning](https://www.slideshare.net/JisungDavidKim/oneshot-learning)
 - Ravi, Sachin and Larochelle, Hugo. Optimization as a model for few-shot learning. In International Conference on Learning Representations (ICLR), 2017. [link](https://openreview.net/pdf?id=rJY0-Kcll)
 
