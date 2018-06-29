@@ -27,7 +27,7 @@ Few-Shot Learning이란 해당 용어가 말하는 대로 아주 적은 데이�
 
 
 ##### Few_Shot Data 생성 Process
-**[Step1]**가장 처음에는 Train/Test/(Valid) Set으로 데이터를 분할합니다. 이 방법은 기존에 알고리즘 학습을 위한 방법과 동일한 방법 입니다.
+**[Step1]** 가장 처음에는 Train/Test/(Valid) Set으로 데이터를 분할합니다. 이 방법은 기존에 알고리즘 학습을 위한 방법과 동일한 방법 입니다.
 
 ![전체적인 데이터 구조](/files/180622_meta_learning/fig1.png)
 
