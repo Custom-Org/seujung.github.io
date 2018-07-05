@@ -24,6 +24,7 @@ Few-Shot Learning이란 해당 용어가 말하는 대로 아주 적은 데이�
 - K-Shot : 각 class별로 선택하는 Data 개수(**K**)
 - support : 해당 batch에서 fine tuning을 위해 학습하는 셋
 - query : 해당 batch에서 class를 예측해야 하는 데이터 셋
+- episode : 한 epoch 당 수행하는 iteration 횟수
 
 
 ##### Few_Shot Data 생성 Process
