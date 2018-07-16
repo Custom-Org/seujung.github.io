@@ -13,7 +13,7 @@ permalink: /:year/:month/:day/:title/
 excerpt_separator: <!--more-->
 
 disqus_url: seujung.disqus.com
-disqus_id: seung_jung
+disqus_id: seujung
 
 markdown: kramdown
 
