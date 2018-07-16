@@ -12,6 +12,9 @@ permalink: /:year/:month/:day/:title/
 
 excerpt_separator: <!--more-->
 
+disqus_url: https-seujung-github-io-1.disqus.com/count.js
+disqus_id: seung_jung
+
 markdown: kramdown
 
 krandown:
@@ -63,3 +66,4 @@ twitter:
   username: digit82
 github_url:
   username: seujung
+
