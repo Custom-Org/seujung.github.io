@@ -45,7 +45,7 @@ Few-Shot Learning이란 해당 용어가 말하는 대로 아주 적은 데이�
 지금까지 이야기한 내용을 한 장으로 압축한 그림의 형태가 다음과 같은 형태 입니다.
 ![Data Structure](/files/180622_meta_learning/fig5.png)
 
-
+<script id="dsq-count-scr" src="//seujung.disqus.com/count.js" async></script>
 
 
 
