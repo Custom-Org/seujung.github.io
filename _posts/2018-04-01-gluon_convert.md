@@ -18,10 +18,13 @@ image: /files/covers/dices.jpg
 
 
 |  <center>Pytorch</center> |  <center>Gluon</center> |
-|:--------|:--------:|
+|:--------|:--------|
 |torch.unsqueeze(data,1)| data.expand_dims(1)|
 |x.view(1,2,3)| x.reshape(shape=(1,2,3))|
 |x.permute(0,2,1)|F.swapaxes(x,1,2)|
 |x.repeat(1,25,1,1)|F.repeat(x,repeats=25,axis=1)|
 |torch.cat([a,b],3)|F.concat(a,b,dim=3)|
 |x.size()[2]|x.shape[2]|
+|x.bmm(y)|nd.linalg_gemm2(x, y)|
+|x.clamp(min, max)|nd.clip(x, min, max)|
+|x.numpy()|x.asnumpy()|
