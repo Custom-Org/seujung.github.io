@@ -78,14 +78,10 @@ CLEVR 데이터로 실험을 바로 수행하면 좋으나 Data Set 크기 및 �
 #### relational network 주요 Code
 
 - Convolution feature generation Code
-```
+<script src="https://gist.github.com/seujung/fa2cff88f81e3e1a4756d95c3a403b0a.js"></script>
 
-```
 
-- relational network Code
-```
 
-```
 
 #### Performance
 
@@ -98,5 +94,5 @@ CLEVR 데이터로 실험을 바로 수행하면 좋으나 Data Set 크기 및 �
 우리가 알고 싶은 영역의 데이터에 대해 object로 변환을 하고 해당 object 간의 관계를 파악하는 형태로 하여 relational network를 활용 할 수 있습니다.
 
 #### 참조 코드
-relational network를 MXNet(Gluon)을 활용하여서 구현을 해 보았습니다. 해당 코드는 다음 링크를 통해 확인하시기 바랍니다.
-[Source Code](https://github.com/seujung/dl_study_with_gluon_2nd/tree/master/relational_network)
+relational network를 MXNet(Gluon)을 활용하여서 구현을 해 보았습니다. 해당 코드는 다음 링크를 통 해 확인하시기 바랍니다.
+[Source Code](https://github.com/seujung/dl_study_with_gluon_2nd/tree/master/relational_network)      
