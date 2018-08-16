@@ -17,14 +17,18 @@ image: /files/covers/dices.jpg
 ---
 
 
-|  <center>Pytorch</center> |  <center>Gluon</center> |
-|:--------|:--------|
-|torch.unsqueeze(data,1)| data.expand_dims(1)|
-|x.view(1,2,3)| x.reshape(shape=(1,2,3))|
-|x.permute(0,2,1)|F.swapaxes(x,1,2)|
-|x.repeat(1,25,1,1)|F.repeat(x,repeats=25,axis=1)|
-|torch.cat([a,b],3)|F.concat(a,b,dim=3)|
-|x.size()[2]|x.shape[2]|
-|x.bmm(y)|nd.linalg_gemm2(x, y)|
-|x.clamp(min, max)|nd.clip(x, min, max)|
-|x.numpy()|x.asnumpy()|
+|  <center>Function</center> | <center>Pytorch</center> |  <center>Gluon</center> |<center>비고</center> |
+|:--------|:--------|:--------|:--------|
+|Dimension 삽입|torch.unsqueeze(data,1)| data.expand_dims(1)|
+|Reshape|x.view(1,2,3)| x.reshape(shape=(1,2,3))||
+|Swap shape|x.permute(0,2,1)|x.swapaxes(1,2)|F.swapaxes(x,1,2)는 deprecated 됨|
+|Data Copy|x.repeat(1,25,1,1)|F.repeat(x,repeats=25,axis=1)||
+|Concat data|torch.cat([a,b],3)|F.concat(a,b,dim=3)||
+|Return specific shape |x.size()[2]|x.shape[2]||
+|Batch matrix product |x.bmm(y)|nd.linalg_gemm2(x, y)||
+|Clipping |x.clamp(min, max)|nd.clip(x, min, max)||
+|Convert to numpy|x.numpy()|x.asnumpy()||
+
+
+## Reference
+[PyTorch to MXNET](https://github.com/zackchase/mxnet-the-straight-dope/blob/master/cheatsheets/pytorch_gluon.md)
