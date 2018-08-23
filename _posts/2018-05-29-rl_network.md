@@ -77,11 +77,10 @@ CLEVR 데이터로 실험을 바로 수행하면 좋으나 Data Set 크기 및 �
 
 #### relational network 주요 Code
 
-##### Convolution feature generation code
+- Convolution feature generation code
 <script src="https://gist.github.com/seujung/fa2cff88f81e3e1a4756d95c3a403b0a.js"></script>
 
-
-##### relational network code
+- relational network code
 <script src="https://gist.github.com/seujung/f34a70d57cd629401a719c0b7245f01e.js"></script>
 
 #### Performance

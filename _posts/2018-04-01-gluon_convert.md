@@ -28,7 +28,8 @@ image: /files/covers/dices.jpg
 |Batch matrix product |x.bmm(y)|nd.linalg_gemm2(x, y)||
 |Clipping |x.clamp(min, max)|nd.clip(x, min, max)||
 |Convert to numpy|x.numpy()|x.asnumpy()||
-
+|transposein 2 dim|torch.t(x)|x.T||
+|inner product|x.dot(y)|||
 
 ## Reference
 [PyTorch to MXNET](https://github.com/zackchase/mxnet-the-straight-dope/blob/master/cheatsheets/pytorch_gluon.md)
